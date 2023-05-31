@@ -58,7 +58,7 @@ jobs:
               run: echo "TAGS=mumblevoip/mumble-server:${{ inputs.mumble_version }}, mumblevoip/mumble-server:${{ inputs.mumble_version }}-${{ inputs.docker_version }}" >> $GITHUB_ENV
                 
             - name: Build and push
-              uses: docker/build-push-action@v2
+              uses: docker/build-push-action@v4
               with:
                 context: .
                 platforms: ${{ inputs.platforms }}

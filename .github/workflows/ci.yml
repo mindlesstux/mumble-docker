@@ -10,7 +10,7 @@ jobs:
         with:
             mumble_version: "v1.4.230"
             docker_version: '0'
-            publish: false
+            publish: true
             update_latest: false
             platforms: "linux/amd64"
     build_1_4_274:
@@ -18,7 +18,7 @@ jobs:
         with:
             mumble_version: "v1.4.274"
             docker_version: '0'
-            publish: false
+            publish: true
             update_latest: false
             platforms: "linux/amd64"
     build_1_4_287:
@@ -26,7 +26,7 @@ jobs:
         with:
             mumble_version: "v1.4.287"
             docker_version: '0'
-            publish: false
+            publish: true
             update_latest: false
             platforms: "linux/amd64"
     build_1_5_517:
@@ -34,7 +34,7 @@ jobs:
         with:
             mumble_version: "v1.5.517"
             docker_version: '0'
-            publish: false
+            publish: true
             update_latest: false
             platforms: "linux/amd64"
     build_latest:
@@ -42,6 +42,6 @@ jobs:
         with:
             mumble_version: "latest"
             docker_version: '0'
-            publish: false
+            publish: true
             update_latest: true
             platforms: "linux/amd64"
