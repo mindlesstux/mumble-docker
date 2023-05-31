@@ -19,6 +19,10 @@ on:
                 required: true
                 type: boolean
 
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
 jobs:
     build:
         runs-on: ubuntu-latest
